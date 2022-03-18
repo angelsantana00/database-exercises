@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTs albums (
                         artist VARCHAR(50) DEFAULT 'NONE',
                         name  VARCHAR(100) NOT NULL,
                         release_date YEAR NOT NULL,
-                        sales FLOAT(8, 1) UNSIGNED NOT NULL,
                         genre VARCHAR(100),
+                        sales FLOAT(8, 1) UNSIGNED NOT NULL,
                         PRIMARY KEY (id)
 );
 
